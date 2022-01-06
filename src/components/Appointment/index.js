@@ -48,8 +48,6 @@ class Appointment extends Component {
   }
 
   onAppointmentBooked =() =>{
-      const {isBooked} = this.state
-
       this.setState({isBooked:true})
   }
 
@@ -81,10 +79,9 @@ class Appointment extends Component {
               onChange={this.doctorClicked}
               value={selectedDoctor}
               className="select"
-              defaultValue={'DEFAULT'}
               
             >
-                <option value="DEFAULT" disabled >Choose</option>
+                <option value="" disabled >Choose</option>
               {doctorList.map(eachItem => (
                 <option
                   key={eachItem.id}
