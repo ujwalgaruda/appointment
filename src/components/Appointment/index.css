@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600&display=swap');
+
+.bg-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+    background-color: #e95b81;
+}
+.appointment-card{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #fff;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    width: 96%;
+}
+
+.title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 24px;
+}
+.form-group{
+    display: flex;
+    justify-content: space-between;
+}
+.form-group label{
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 5px;
+    padding-top: 8px;
+}
+.form-group input, .form-group select, .doctor-name{
+    border: none;
+    background-color: #f0aabd;
+    padding-bottom: 2px;
+    border-radius: 8px;
+    margin-top: 5px;
+    padding: 8px;
+}
+.button{
+    background-color: #e95b81;
+    color: white;
+    font-family: "poppins";
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 8px;
+    padding-left: 8px;
+    margin-top: 20px;
+}
+.confirm-img{
+    height: 200px;
+    width: 200px;
+}
+.doctor-image{
+    height: 250px;
+    width: 250px;
+    margin-top: 60px;
+    
+}
